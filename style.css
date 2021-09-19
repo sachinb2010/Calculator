@@ -1,0 +1,92 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+
+
+ nav .logo{
+     font-size: 50px;
+     color:#eeeeee;
+     background-color: #414665;
+     font-weight: 600;
+     text-align: center;
+     font-family: 'Bebas Neue', cursive;
+     
+ }
+
+
+
+
+  .calcu{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin:50px;
+     
+     
+ }
+ .calcu #screen{
+    font-size: 53px;
+    font-weight: 600;
+    padding: 16px;
+    text-align: left;
+    background-color: #9ebf82;
+    border-radius: 6px;
+ }
+
+ .calcu table {  
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+
+
+ }
+.bor{
+    border: 20px solid #343a40;
+    border-radius: 12px;
+    background-color: #c7c9cc;
+}
+
+ table tr td button{
+    font-size: 40px;
+    padding: 23px;
+    margin: 7px;
+    background-color: #343a40;
+    border:2px solid #343a40;
+    color: antiquewhite;
+    border-radius: 34px;
+    height:100px;
+    width: 168px;
+    cursor: pointer;
+
+ }
+ button:hover{
+     background-color: #eeeeee;
+     color:black;
+     border-radius:34px;
+     border:2px solid #eeeeee;
+ }
+
+ footer{
+    background-color: #414665;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+ footer span a{
+    font-size: 20px;
+    color:#c7c9cc;
+    text-decoration: none;
+ }
+ footer span{
+    color:#c7c9cc;
+ }
